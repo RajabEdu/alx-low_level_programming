@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <unistd.h>
+/**
+ * main - Entry point
+ * Return:1
+ */
+int main(void)
+{
+write(2, ch, sizeof(ch) - 1);
+return (1);
+}
